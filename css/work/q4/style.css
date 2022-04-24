@@ -9,12 +9,24 @@
   text-align: center;
 }
 
+.q4_mx_auto {
+  margin: 0 auto;
+}
 .q4_white {
   display: inline-block;
 }
 
+.q4_blue,
+.q4_white,
+.q4_inner_contents {
+  box-sizing: border-box;
+}  
+
 .q4_blue {  
-  margin: 0 auto;
+  width: 90px;
+  height: 20px;
+  padding: 3px 0;
+  font-size: 12px;
 }
 
 .q4_display_inline {
